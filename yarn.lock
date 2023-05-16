@@ -428,10 +428,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.15.3":
-  version: 18.15.10
-  resolution: "@types/node@npm:18.15.10"
-  checksum: 9aeae0b683eda82892def5315812bdee3f1a28c4898b7e70f8e2514564538b16c4dccbe8339c1266f8fc1d707a48f152689264a854f5ebc2eba5011e793612d9
+"@types/node@npm:^20.1.5":
+  version: 20.1.5
+  resolution: "@types/node@npm:20.1.5"
+  checksum: 0d073ed7b9cc51e2354dcf3a8ccca84d08c7d513fa8fac9462cabc164435b30f2ad296e9f2f911e6ce72da837b704f1075379be84a93bb24f76d328a2d9e8561
   languageName: node
   linkType: hard
 
@@ -2963,6 +2963,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"my-qwik-basic-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "my-qwik-basic-starter@workspace:."
+  dependencies:
+    "@builder.io/qwik": 0.24.0
+    "@builder.io/qwik-city": ~0.7.0
+    "@types/eslint": 8.21.3
+    "@types/node": ^20.1.5
+    "@typescript-eslint/eslint-plugin": 5.56.0
+    "@typescript-eslint/parser": 5.56.0
+    eslint: 8.36.0
+    eslint-plugin-qwik: 0.24.0
+    prettier: 2.8.6
+    typescript: 5.0.2
+    undici: 5.21.0
+    vite: 4.2.1
+    vite-tsconfig-paths: 3.5.0
+  languageName: unknown
+  linkType: soft
+
 "mz@npm:^2.7.0":
   version: 2.7.0
   resolution: "mz@npm:2.7.0"
@@ -3286,26 +3306,6 @@ __metadata:
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
   languageName: node
   linkType: hard
-
-"qwik-project-name@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "qwik-project-name@workspace:."
-  dependencies:
-    "@builder.io/qwik": 0.24.0
-    "@builder.io/qwik-city": ~0.7.0
-    "@types/eslint": 8.21.3
-    "@types/node": ^18.15.3
-    "@typescript-eslint/eslint-plugin": 5.56.0
-    "@typescript-eslint/parser": 5.56.0
-    eslint: 8.36.0
-    eslint-plugin-qwik: 0.24.0
-    prettier: 2.8.6
-    typescript: 5.0.2
-    undici: 5.21.0
-    vite: 4.2.1
-    vite-tsconfig-paths: 3.5.0
-  languageName: unknown
-  linkType: soft
 
 "readable-stream@npm:^3.6.0":
   version: 3.6.2
@@ -3879,11 +3879,11 @@ __metadata:
 
 "typescript@patch:typescript@5.0.2#~builtin<compat/typescript>":
   version: 5.0.2
-  resolution: "typescript@patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=ad5954"
+  resolution: "typescript@patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bdbf3d0aac0d6cf010fbe0536753dc19f278eb4aba88140dcd25487dfe1c56ca8b33abc0dcd42078790a939b08ebc4046f3e9bb961d77d3d2c3cfa9829da4d53
+  checksum: b63cb742fbb9aeb3085e002ad8f10d5fd963606aa4d6b3b65b4e76c396ff09739f03b5dbae08e1698c3bce9d5619d3f67aeb7ee470ed4016bd345b3cfe37b54a
   languageName: node
   linkType: hard
 
